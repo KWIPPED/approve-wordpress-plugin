@@ -1,0 +1,21 @@
+{
+	"name": "Woocommerce APPROVE Plugin",
+	"version": "1.3",
+	"download_url": "https://github.com/KWIPPED/wordpress_woocommerce_approve_plugin",
+
+	"homepage": "http://kwipped.com/",
+	"requires": "4.5",
+	"tested": "4.8",
+	"last_updated": "2019-04-11 16:17:00",
+	"upgrade_notice": "This update contains several bug fixes",
+
+	"author": "Wellington Souza",
+	"author_homepage": "http://kwipped.com/",
+
+	"sections": {
+		"description": "Provides APPROVE information available in Woocommerce sites.",
+		"installation": "Click on 'update' to get the latest version.",
+		"changelog": "Changelog. Added updater.",
+		"custom_section": "APPROVE provides information."
+	}
+}
