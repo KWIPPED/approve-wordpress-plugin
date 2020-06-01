@@ -35,35 +35,6 @@ More informatinon on how to integrate it into your Worpress site is available at
 Please visit https://github.com/KWIPPED/woocommerce-approve-plugin.
 
 == Changelog ==
-= 1.5.6 =
-* Changed searach of product pricing in structured data on page.
 
-= 1.5.5 =
-* Added version to Javascript.
-
-= 1.5.4 =
-* Code cleanup.
-
-= 1.5.3 =
-* Documentation update.
-
-= 1.5.2 =
-* Hardened access to structured data to protect from other plugins on the page.
-
-= 1.5.1 =
-* Changed strategy on tracking cart and products on the page.
-
-= 1.5.0 =
-* Created simple/variable product buttons. Also, changed strategy on inclusion of javascript.
-
-= 1.4.0 =
-* Stable release.
-
-= 1.3.9 =
-* Updated plugin for naming consistency.
-
-= 1.3.8 =
-* Added settings page.
-
-= 1.3.7 =
+= 1.0.0 =
 * The first publically avaialble version.
