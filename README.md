@@ -15,7 +15,7 @@ For experienced developers.
 
 #Integration Levels
 
-##Page level tag integration
+## Page level tag integration
 
 There are three types of tags that may be used on site pages. Teaser tags, action (button) tags, and "hide" tags.
 
