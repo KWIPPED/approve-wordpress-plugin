@@ -94,9 +94,9 @@ Return object example:
 
 ```javascript
 {
-  url: "https://example.kwipped.com&items=[{"model":"m3","quantity":"1","type":"new_product","price":"23434"},{"model":"m2","quantity":"1","type":"new_product","price":"2343"},{"model":"m3","quantity":"1","type":"new_product","price":"23434"}]",
-	teaser: "Finance for $499/mo",
-	teaser_raw: "499"
+    url: "https://example.kwipped.com&items=[{"model":"m3","quantity":"1","type":"new_product","price":"23434"},{"model":"m2","quantity":"1","type":"new_product","price":"2343"},{"model":"m3","quantity":"1","type":"new_product","price":"23434"}]",
+   teaser: "Finance for $499/mo",
+   teaser_raw: "499"
 }
 ```
 
