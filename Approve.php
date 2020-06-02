@@ -16,7 +16,7 @@ class Approve{
 	 * Constructor
 	 */
 	function __construct() {
-		$kwipped_approve_id=get_option('awcp_options');
+		$kwipped_approve_id=get_option(PLUGIN_PREFIX.'_options');
 		if(!empty($kwipped_approve_id) && isset($kwipped_approve_id['approve_id'])){
 			$this->kwipped_approve_id=$kwipped_approve_id['approve_id'];
 		}
@@ -64,8 +64,7 @@ class Approve{
 			"teaser_raw"=>$teaser_raw
 		];
 
-		wp_send_json($data);
-		wp_die(); // this is required to terminate immediately and return a proper response
+		return $data;
 	}
 
 	/**
@@ -97,8 +96,30 @@ class Approve{
 		return $teaser;
 	}
 
-	public static function dd2($item){
-		error_log(print_r($item,true));
+	public static function ajax_get_teaser(){
+		$approve = new \com\kwipped\approve\wordpress\devtools\Approve();
+		$value = $_POST['data']['value'];
+		wp_send_json($approve->get_teaser($value));
+		wp_die(); // this is required to terminate immediately and return a proper response
+	}
+
+	public static function ajax_get_button_action() {
+		$approve = new Approve();
+		$approve->add($_POST['data']['model'],$_POST['data']['price'],$_POST['data']['qty'],$_POST['data']['item_type']);
+		wp_send_json($approve->get_approve_information());
+		wp_die(); // this is required to terminate immediately and return a proper response
+	}
+
+	public static function ajax_get_approve_information() {
+		\com\kwipped\approve\wordpress\devtools\dd2($_POST);
+		$approve = new Approve();
+		// $items = json_decode($_POST['data']['items']);
+		// \com\kwipped\approve\wordpress\devtools\dd2($_POST);
+		foreach($_POST['data']['items'] as $item){
+			$approve->add($item['model'],$item['price'],$item['qty'],$item['type']);
+		}
+		wp_send_json($approve->get_approve_information());
+		wp_die(); // this is required to terminate immediately and return a proper response
 	}
 }
 ?>
