@@ -2,7 +2,7 @@
 
 The APPROVE Devtools plugin provides the building blocks for integrating KWIPPED APPROVE into any worpress website. Rather than addressing a specific template or e-commerce platform, it is generic and can be used with any template and any e-commerce platform. . 
 
-This progin provides functionality in three different web stack layers. Page level (design), Javascipt (page logic) and PHP code (site programming). 
+This progin provides functionality in three different web stack layers. Page level (design), Javascipt (page logic) and PHP code (server side programming). 
 
 
 # TL;DR
