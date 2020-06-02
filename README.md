@@ -158,17 +158,17 @@ In order to use the APPROVE woocommerce plugin you will need a subscription to t
 3. Copy your APPROVE id
 
 ## 2. Download the wordpress plugin from the dist folder in GitHub
-1. In the APPROVE Woocommerce plugin page in GitHub (https://github.com/KWIPPED/approve-woocommerce-plugin) navigate to the dist folder displayed close to the top of the page. Download the approve-woocommerce-plugin.zip to your computer.
+1. In the APPROVE Woocommerce plugin page in GitHub (https://github.com/KWIPPED/approve-wordpress-devtools-plugin navigate to the dist folder displayed close to the top of the page. Download the approve-woocommerce-plugin.zip to your computer.
 
 ## 3. Install the plugin into Wordpress
 In Wordpress navigate to the plugins page. Click on "Add New", then "Upload Plugin"
 1. Select the file you downloaded on Section #2
-2. The APPROVE Woocommerce plugin is now installed.
+2. The APPROVE Devtools plugin is now installed.
 
 ## 4. Set your APPROVE id in the plugin settings
-1. In Wordpress, under "Settings" click on "APPROVE Woocommerce Plugin"
+1. In Wordpress, under "Settings" click on "APPROVE Devtools Plugin"
 2. Enter your Approve id retrieved in Section #1
 
 # Updates
 
-APPROVE Woocommerce plugin updates will be released periodically. You may update it by visiting the "Plugins" page in wordpress and following the provided instructions.
+APPROVE Devtools plugin updates will be released periodically. You may update it by visiting the "Plugins" page in wordpress and following the provided instructions.
