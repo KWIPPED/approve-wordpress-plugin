@@ -103,17 +103,23 @@ Return object example:
 In order to use this tag you will have to add items to the kwipped_approve object before calling this function. 
 
 ```javascript
+kwipped_approve.add_item(model,price,qty,item_type);
+```
+
+Example:
+
+```javascript
 kwipped_approve.add_item("Model-3",10000,1,"new_product");
 ```
 
-After adding at least one item, the kwipped_approve.get_approve_information() functino will return the correct information for the value provided. The following utilitarian functinos are also available:
+After adding at least one item, the kwipped_approve.get_approve_information() function will return the correct information for the value provided. The following utilitarian functions are also available:
 
 ```javascript
-kwipped_approve.get_current_items
+kwipped_approve.get_current_items()
 //Returns the list of current items.
 kwipped_approve.remove_item(index) 
 //Removes item at the provided index
-kwipped_approve.clear_items
+kwipped_approve.clear_items()
 //Removes all items currently in the list
 ```
 
@@ -130,6 +136,18 @@ $app = new Approve();
 
 ### Adding items and retrieving approve information
 
+After instantiating the Approve class, add items to it in the following fashion.
+
+```php
+$app->add($model,$price,$qty,$item_type);
+```
+
+Retrieve APPROVE information using the following method:
+```php
+$app->get_approve_information()
+```
+
+Example:
 ```php
 $app->add("Model-1","1000","3","new_product");
 $app->add("Model-2","2000","1","new_product");
