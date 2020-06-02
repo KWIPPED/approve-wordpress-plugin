@@ -13,7 +13,7 @@ For experienced developers.
 4. Set your APPROVE id in the plugin settings. 
 5. Utilize the tags, javascript and php library functions provided by the plugin in your website.
 
-#Integration Levels
+# Integration Levels
 
 ## Page level tag integration
 
