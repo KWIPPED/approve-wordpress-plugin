@@ -6,13 +6,14 @@ into your site with minimum web design effort. Both the embedded and hosted appl
 # TL;DR
 For experienced developers.
 1. Retrieve your APPROVE id from KWIPPED
-2. Download the APPROVE WorPress Plugin from the dist folder of this application in GitHub
+2. Download the APPROVE WorPress Plugin from the dist folder of this application on GitHub
 3. Install the plugin into WordPress
 4. Set your APPROVE id in the plugin settings. 
 5. Insert APPROVE tags into your site as needed.
 
 # Detailed Installation and usage
 ## Installation
+1. Visit the [APPROVE Woocommerce Integration Plugin page on Git Hub.](https://github.com/KWIPPED/approve-wordpress-plugin) 
 ----------------------------------------------------------------------------
 
 
