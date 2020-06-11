@@ -1,4 +1,4 @@
 cd ..
-zip -r approve-wordpress-devtools-plugin.zip approve-wordpress-devtools-plugin -x '*.git*' -x '*dist/*' -x '*gen_plugin' -x '*.DS_Store*'
-mv approve-wordpress-devtools-plugin.zip approve-wordpress-devtools-plugin/dist
-cd approve-woocommerce-plugin
+zip -r approve-wordpress-plugin.zip approve-wordpress-plugin -x '*.DS_Store*'
+mv approve-wordpress-plugin.zip approve-wordpress-plugin/dist
+cd approve-wordpress-plugin

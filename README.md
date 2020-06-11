@@ -1,17 +1,31 @@
 # Plugin Features
 
-The APPROVE Devtools plugin provides the building blocks for integrating KWIPPED APPROVE into any worpress website. Rather than addressing a specific template or e-commerce platform, it is generic and can be used with any template and any e-commerce platform. . 
-
-This progin provides functionality in three different web stack layers. Page level (design), Javascipt (page logic) and PHP code (server side programming). 
-
+The APPROVE WorPress Plugin provides the KWIPPED APPROVE Plugin in WordPress. You may follow the APPROVE tag standards and build equipment financing
+into your site with minimum web design effort. Both the embedded and hosted application models are provided.
 
 # TL;DR
 For experienced developers.
 1. Retrieve your APPROVE id from KWIPPED
-2. Download the WordPress Devtools plugin from the dist folder in GitHub
+2. Download the APPROVE WorPress Plugin from the dist folder of this application in GitHub
 3. Install the plugin into WordPress
 4. Set your APPROVE id in the plugin settings. 
-5. Utilize the tags, javascript and php library functions provided by the plugin in your website.
+5. Insert APPROVE tags into your site as needed.
+
+# Detailed Installation and usage
+## Installation
+----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+The APPROVE WorPress Plugin
 
 # Integration Levels
 
