@@ -23,12 +23,12 @@
 			/**
 			 * Provides update functionality
 			 */
-			// require 'plugin-update-checker-4.9/plugin-update-checker.php';
-			// $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-			// 	'https://github.com/KWIPPED/approve-wordpress-devtools-plugin/',
-			// 	__FILE__,
-			// 	'approve-wordpress-devtools-plugin'
-			// );
+			require 'plugin-update-checker-4.9/plugin-update-checker.php';
+			$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+				'https://github.com/KWIPPED/approve-wordpress-plugin/',
+				__FILE__,
+				'approve-wordpress-plugin'
+			);
 
 			//Registers the function that WP will call to load javascript and CSS.
 			add_action( 'wp_enqueue_scripts', [$this,'load_scripts']);
