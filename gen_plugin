@@ -1,4 +1,5 @@
+rm dist/approve-wordpress-plugin.zip
 cd ..
-zip -r approve-wordpress-plugin.zip approve-wordpress-plugin -x '*.DS_Store*'
+zip -r approve-wordpress-plugin.zip approve-wordpress-plugin -x '*.DS_Store*' -x '*.git/*'
 mv approve-wordpress-plugin.zip approve-wordpress-plugin/dist
 cd approve-wordpress-plugin
