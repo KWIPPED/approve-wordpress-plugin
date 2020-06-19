@@ -33,7 +33,7 @@ Your task is to place "finance rate teasers" where appropriate, and "action butt
 
 ```html
 <span
-  approve-function=”teaser_rate”
+  approve-function="teaser_rate"
   approve-total="10000"
 ></span>/mo Apply For Financing
 ```
@@ -47,7 +47,7 @@ The exmaple above will place a finance teaser on your webpage.
 ``` html
 <button
   approve-function="embedded_app"
-  approve-action=”add_to_app”
+  approve-action="add_to_app"
   approve-qty="1"
   approve-model="Model-1" 
   approve-item-type="new_product"

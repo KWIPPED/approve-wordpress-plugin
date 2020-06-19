@@ -3,7 +3,7 @@
 	Plugin Name: APPROVE WordPress Plugin
 	Plugin URI: http://kwipped.com
 	description:May be used by APPROVE clients to create the necessary link to connect into the Approve cart from wordpress.
-	Version: 2.0.1
+	Version: 2.0.2
 	Author: Wellington Souza
 	Author URI: http://kwipped.com
 	License: GPL2
@@ -141,7 +141,8 @@
 		 */
 		public function add_loader_url() {
 			$options = get_option(self::$options);
-			echo "<input id='approve_plugin_setting_loader_url' name='".(self::$options)."_options[loader_url]' type='text' value='".
+			$this->dd2($options);
+			echo "<input id='approve_plugin_setting_loader_url' name='".(self::$options)."[loader_url]' type='text' value='".
 				esc_attr($options['loader_url'])."' style='width:100%;'/>";
 		}
 		
@@ -150,7 +151,7 @@
 		 */
 		public function add_approve_url() {
 			$options = get_option(self::$options);
-			echo "<input id='approve_plugin_setting_approve_url' name='".(self::$options)."_options[approve_url]' type='text' value='".
+			echo "<input id='approve_plugin_setting_approve_url' name='".(self::$options)."[approve_url]' type='text' value='".
 				esc_attr($options['approve_url'])."' style='width:100%;'/>";
 		}
 
