@@ -35,6 +35,14 @@ Please visit https://github.com/KWIPPED/approve-wordpress-plugin.
 
 == Changelog ==
 
+= 2.0.4 =
+* Some clients had an inssue with version 2.0.3 loading APPROVE plugin v2.0.
+This release will force an update. Once this is installed, the client will be on version 2.0
+of the APPROVE plugin.
+
+= 2.0.3 =
+* SKIP
+
 = 2.0.2 =
 * Bug with new approve URL.
 
