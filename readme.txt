@@ -1,13 +1,10 @@
-EDIT THIS FILE
-
-
 === APPROVE Wordpress Plugin ===
 Contributors: Wellington Souza
 Donate link: N/A
 Tags: approve, kwippped, devtools
 Requires at least: 4.6
 Tested up to: 5.4
-Stable tag: 2.0.3
+Stable tag: 3.0.0
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -34,6 +31,9 @@ More informatinon on how to integrate it into your Worpress site is available at
 Please visit https://github.com/KWIPPED/approve-wordpress-plugin.
 
 == Changelog ==
+= 3.0.0 =
+* This update will load version 3.0 of the APPROVE plugin. If you are updating from version 2.x.x, there are no upgrade requirements. If you 
+are updating from version 1.x.x, please contact KWIPPED for upgrade help.
 
 = 2.0.4 =
 * Some clients had an inssue with version 2.0.3 loading APPROVE plugin v2.0.
